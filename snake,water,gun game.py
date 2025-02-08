@@ -12,27 +12,28 @@ you = dictionary[player]
 
 print(f"You chose {revdictionary[you]}\ncomputer chose {revdictionary[computer]}")
 
-# if computer == you:
-#     print("its a draw")
+'''if computer == you:
+    print("its a draw")
 
-# else:
-#     if(computer==1 and you == 3):         
-#         print("you win!")
-#     elif(computer==1 and you == 2):        
-#         print("You lose!")
-#     elif(computer==2 and you == 1):        
-#         print("You win!")
-#     elif(computer==2 and you == 3):         
-#         print("You lose!")
-#     elif(computer==3 and you == 2):         
-#         print("You win!")
-#     elif(computer==3 and you ==1 ):           
-#         print("You lose!")
-#     else:
-#         print("Daya kuch to gadbad hai")
+else:
+    if(computer==1 and you == 3):         
+        print("you win!")
+    elif(computer==1 and you == 2):        
+        print("You lose!")
+    elif(computer==2 and you == 1):        
+        print("You win!")
+    elif(computer==2 and you == 3):         
+        print("You lose!")
+    elif(computer==3 and you == 2):         
+        print("You win!")
+    elif(computer==3 and you ==1 ):           
+        print("You lose!")
+    else:
+        print("Daya kuch to gadbad hai")'''
+
 if computer == you:
     print("It's a tie!")
-elif (computer - you) % 3 == 1:
-    print("You win!")
+elif (computer - you) % 3 == 1:            ##short method by finding a pattern in the calculation so the no. of code can be reduce
+    print("You win!")                      ##pattern is computer - you % 3 if it is 1 win other wise lose 
 else:
     print("You lose!")
