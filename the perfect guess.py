@@ -36,5 +36,3 @@ while True:
         print(f'Congratulations {player_name2}! You guessed the number {number} in {number_of_guesses} tries!')
 
         break
-
-        
