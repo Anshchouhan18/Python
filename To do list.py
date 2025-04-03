@@ -64,28 +64,3 @@ while True:
 
     else:
         print("Invalid choice! Please enter a number between 1 and 4.")
-
-M = []
-
-def show_M():
-    if not M:
-        print("\nyour list is empty")
-    else:
-        print("\nYour To-Do List:")
-        for i, M in enumerate(M, start=1):
-            print(f"{i}. {M}")
-
-while True:
-    print("\nYour option: ")
-    print("1. Add a Task")
-    print("2. Remove a Task")
-    print("3. Show To-Do List")
-    print("4. Exit")
-    choice = input("Enter fro 1 to 4")
-
-    if choice == "1":
-        M = input("Enter your task")
-        M.append(M)
-    
-    elif choice == "2":
-        print()
