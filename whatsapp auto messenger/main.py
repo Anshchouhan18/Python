@@ -1,11 +1,11 @@
 '''import pywhatkit as pwk
 for i in range(100):
-    pwk.sendwhatmsg_instantly("+919610943185", "Hello from Python")'''     # basic web framework structure 
+    pwk.sendwhatmsg_instantly("+91", "Hello from Python")'''     # basic web framework structure 
 
 '''import pyautogui
 import time
 
-contact = "+919610943185"  # Replace with your contact
+contact = "+91"  # Replace with your contact
 message = "Hello from Python!"
 
 time.sleep(3)  # Gives you 3 seconds to open WhatsApp Desktop
@@ -37,7 +37,7 @@ import time
 
 # Replace with the contact's name or number (must match saved name in WhatsApp)
 contact ="mummy"
-message = "maan ki baat sunita ke sath                         apka intezar rahega"
+message = "maan ki baat"
 
 # Step 1: Open WhatsApp Desktop
 os.system("start whatsapp:")  
